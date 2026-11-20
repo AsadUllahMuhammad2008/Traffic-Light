@@ -2,6 +2,8 @@
 A simple traffic-light simulation built with an Arduino Uno and
 three LEDs. The program cycles through RED → YELLOW → GREEN, while
 sending a status message to the Serial Monitor.
+## Link:
+https://app.cirkitdesigner.com/project/268c6d70-4faf-4cc2-a161-6d0383aefdcd
 ## Project Overview
 This beginner-friendly project demonstrates: - Configuring Arduino
 digital pins as outputs. - Controlling LEDs with digitalWrite(). -
@@ -63,10 +65,12 @@ The messages repeat as the traffic-light sequence runs.
 - Green: 5,000 ms (5 seconds)
 - Total cycle: 12 seconds, excluding negligible execution overhead.
 ## Repository Structure
+```
 traffic-light/
 ├── README.md
 ├── Traffic_Light_Report.pdf
 └── traffic_light.ino
+```
 ## Learning Outcomes
 After completing this project, a learner should be able to define
 digital output pins, switch LEDs on and off, use delays to create timed
