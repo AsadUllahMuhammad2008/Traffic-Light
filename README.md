@@ -6,9 +6,13 @@ sending a status message to the Serial Monitor.
 https://app.cirkitdesigner.com/project/268c6d70-4faf-4cc2-a161-6d0383aefdcd
 ## Project Overview
 This beginner-friendly project demonstrates: - Configuring Arduino
+
 digital pins as outputs. - Controlling LEDs with digitalWrite(). -
+
 Using delay() to control signal timing. - Sending status messages
+
 through serial communication.
+
 ### Note: 
 This is an educational tabletop demonstration only. It is
 not suitable for controlling real road traffic or safety-critical
@@ -26,19 +30,21 @@ equipment.
 ## Wiring
 Connect each LED in series with its own current-limiting resistor:
 
-- LED        Arduino pin
-- Green               D4
-- Yellow              D2
-- Red                 D3
+|LED  |  Arduino pin|
+|-----|-------------|
+|Green  |  D4|
+|Yellow  |  D2|
+|Red  |  D3|
 
 For each LED, connect the Arduino output pin to the LED anode (long leg)
 through a resistor. Connect the LED cathode (short leg) to GND. Check
 LED polarity before powering the circuit.
 ## Signal Sequence
-- Step     Red (D3)   Yellow (D2)   Green (D4)      Duration
-- RED      ON         OFF           OFF            5 seconds
-- YELLOW   OFF        ON            OFF            2 seconds
-- GREEN    OFF        OFF           ON             5 seconds
+|Step  |  Red (D3)  |  Yellow (D2)  |  Green (D4)  |  Duration|
+|------|------------|---------------|--------------|----------|
+|RED  |  ON  |  OFF  |  OFF  |  5 seconds|
+|YELLOW  |  OFF  |  ON  |  OFF  |  2 seconds|
+|GREEN  |  OFF  |  OFF  |  ON  |  5 seconds|
 
 The sequence repeats continuously.
 ## How to Run
