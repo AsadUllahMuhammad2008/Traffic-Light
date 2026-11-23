@@ -82,6 +82,4 @@ After completing this project, a learner should be able to define
 digital output pins, switch LEDs on and off, use delays to create timed
 stages, and monitor messages over a serial connection.
 ## License
-Add a license file if you want others to reuse or distribute this
-project. For a public GitHub repository, an MIT
-License is one common option.
+I used MIT License.
